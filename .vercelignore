@@ -1,0 +1,25 @@
+# Test files
+*.test.ts
+*.test.tsx
+*.pbt.test.ts
+**/__tests__
+vitest.config.ts
+vitest.setup.ts
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Development files
+.env.local
+.env
+test-*.ts
+prisma/dev.db
+prisma/dev.db-journal
+
+# Scripts
+scripts/
+
+# Examples
+examples/
