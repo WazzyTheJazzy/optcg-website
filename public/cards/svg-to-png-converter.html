@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG to PNG Converter - Card Back</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .preview {
+            border: 2px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+            background: #fafafa;
+        }
+        canvas {
+            border: 1px solid #ccc;
+            max-width: 100%;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .info {
+            background: #e3f2fd;
+            padding: 15px;
+            border-left: 4px solid #2196F3;
+            margin: 20px 0;
+        }
+        .success {
+            background: #e8f5e9;
+            border-left-color: #4CAF50;
+        }
+        .warning {
+            background: #fff3e0;
+            border-left-color: #ff9800;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SVG to PNG Converter</h1>
+        <p class="subtitle">Convert card-back.svg to card-back.png at 1024x1024 resolution</p>
+        
+        <div class="info">
+            <strong>Instructions:</strong>
+            <ol>
+                <li>Click "Load SVG" to load the card-back.svg file</li>
+                <li>Preview the card back design</li>
+                <li>Click "Convert to PNG" to generate the PNG file</li>
+                <li>Click "Download PNG" to save the file as card-back.png</li>
+            </ol>
+        </div>
+
+        <div>
+            <button onclick="loadSVG()">Load SVG</button>
+            <button id="convertBtn" onclick="convertToPNG()" disabled>Convert to PNG</button>
+            <button id="downloadBtn" onclick="downloadPNG()" disabled>Download PNG</button>
+        </div>
+
+        <div class="preview">
+            <h3>Preview</h3>
+            <canvas id="canvas" width="1024" height="1024"></canvas>
+            <p id="status">Click "Load SVG" to begin</p>
+        </div>
+
+        <div class="info warning">
+            <strong>Note:</strong> The generated PNG will be at 1024x1024 resolution.
+            Save it as <code>card-back.png</code> in the <code>/public/cards/</code> directory.
+        </div>
+    </div>
+
+    <script>
+        let svgData = null;
+        let pngBlob = null;
+
+        async function loadSVG() {
+            try {
+                const response = await fetch('./card-back.svg');
+                const svgText = await response.text();
+                svgData = svgText;
+                
+                // Display preview
+                const img = new Image();
+                const blob = new Blob([svgText], { type: 'image/svg+xml' });
+                const url = URL.createObjectURL(blob);
+                
+                img.onload = function() {
+                    const canvas = document.getElementById('canvas');
+                    const ctx = canvas.getContext('2d');
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    ctx.drawImage(img, 0, 0, 1024, 1024);
+                    URL.revokeObjectURL(url);
+                    
+                    document.getElementById('status').textContent = 'SVG loaded successfully! Click "Convert to PNG" to continue.';
+                    document.getElementById('convertBtn').disabled = false;
+                };
+                
+                img.onerror = function() {
+                    document.getElementById('status').textContent = 'Error loading SVG';
+                    document.getElementById('status').style.color = 'red';
+                };
+                
+                img.src = url;
+            } catch (error) {
+                document.getElementById('status').textContent = 'Error: ' + error.message;
+                document.getElementById('status').style.color = 'red';
+            }
+        }
+
+        function convertToPNG() {
+            const canvas = document.getElementById('canvas');
+            
+            canvas.toBlob(function(blob) {
+                pngBlob = blob;
+                const size = (blob.size / 1024).toFixed(2);
+                document.getElementById('status').textContent = `PNG generated successfully! Size: ${size} KB. Click "Download PNG" to save.`;
+                document.getElementById('status').style.color = 'green';
+                document.getElementById('downloadBtn').disabled = false;
+            }, 'image/png', 1.0);
+        }
+
+        function downloadPNG() {
+            if (!pngBlob) {
+                alert('Please convert to PNG first');
+                return;
+            }
+
+            const url = URL.createObjectURL(pngBlob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'card-back.png';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            document.getElementById('status').textContent = 'PNG downloaded! Save it to /public/cards/ directory.';
+        }
+    </script>
+</body>
+</html>

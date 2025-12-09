@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a3e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2a2a5e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a3e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="url(#bgGradient)"/>
+  
+  <!-- Outer border -->
+  <rect x="40" y="40" width="944" height="944" fill="none" stroke="#d4af37" stroke-width="20"/>
+  
+  <!-- Inner border -->
+  <rect x="70" y="70" width="884" height="884" fill="none" stroke="#8b7355" stroke-width="10"/>
+  
+  <!-- Center circle -->
+  <circle cx="512" cy="512" r="200" fill="#3a3a6e" stroke="#d4af37" stroke-width="15"/>
+  
+  <!-- Text: ONE PIECE -->
+  <text x="512" y="200" font-family="Arial, sans-serif" font-size="80" font-weight="bold" 
+        fill="#d4af37" text-anchor="middle" dominant-baseline="middle">ONE PIECE</text>
+  
+  <!-- Text: CARD GAME -->
+  <text x="512" y="824" font-family="Arial, sans-serif" font-size="60" font-weight="bold" 
+        fill="#d4af37" text-anchor="middle" dominant-baseline="middle">CARD GAME</text>
+  
+  <!-- Center logo: OP -->
+  <text x="512" y="512" font-family="Arial, sans-serif" font-size="180" font-weight="bold" 
+        fill="#d4af37" text-anchor="middle" dominant-baseline="middle">OP</text>
+  
+  <!-- Corner decorations -->
+  <!-- Top-left -->
+  <path d="M 100 150 L 100 100 L 150 100" fill="none" stroke="#d4af37" stroke-width="8"/>
+  
+  <!-- Top-right -->
+  <path d="M 874 100 L 924 100 L 924 150" fill="none" stroke="#d4af37" stroke-width="8"/>
+  
+  <!-- Bottom-left -->
+  <path d="M 100 874 L 100 924 L 150 924" fill="none" stroke="#d4af37" stroke-width="8"/>
+  
+  <!-- Bottom-right -->
+  <path d="M 874 924 L 924 924 L 924 874" fill="none" stroke="#d4af37" stroke-width="8"/>
+</svg>

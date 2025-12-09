@@ -1,0 +1,181 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  
+  accounts      Account[]
+  sessions      Session[]
+  collections   Collection[]
+  trades        Trade[]
+  tradeOffers   TradeOffer[]
+  watchlist     Watchlist[]
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Card {
+  id             String   @id @default(cuid())
+  cardNumber     String   @unique
+  name           String
+  set            String
+  rarity         String
+  color          String
+  cost           Int?
+  power          Int?
+  counter        Int?
+  life           Int?     // For Leaders
+  attribute      String?
+  type           String   // Leader, Character, Event, Stage
+  category       String
+  effect         String?
+  trigger        String?
+  imageUrl       String?
+  illustrationType String? // Standard, Manga, Original, Alternate, Parallel
+  artist         String?
+  archetype      String?  // Straw Hat Crew, Whitebeard Pirates, etc.
+  tags           String?  // Comma-separated tags
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  
+  collections Collection[]
+  priceHistory PriceHistory[]
+  watchlist   Watchlist[]
+  tradeItems  TradeItem[]
+  
+  @@index([name])
+  @@index([set])
+  @@index([rarity])
+  @@index([type])
+  @@index([color])
+  @@index([cost])
+}
+
+model Collection {
+  id        String   @id @default(cuid())
+  userId    String
+  cardId    String
+  quantity  Int      @default(1)
+  condition String   @default("NM")
+  forTrade  Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card Card @relation(fields: [cardId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, cardId, condition])
+  @@index([userId])
+  @@index([cardId])
+}
+
+model PriceHistory {
+  id        String   @id @default(cuid())
+  cardId    String
+  price     Float
+  condition String   @default("NM")
+  source    String   @default("market")
+  timestamp DateTime @default(now())
+  
+  card Card @relation(fields: [cardId], references: [id], onDelete: Cascade)
+  
+  @@index([cardId, timestamp])
+}
+
+model Watchlist {
+  id        String   @id @default(cuid())
+  userId    String
+  cardId    String
+  targetPrice Float?
+  createdAt DateTime @default(now())
+  
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  card Card @relation(fields: [cardId], references: [id], onDelete: Cascade)
+  
+  @@unique([userId, cardId])
+  @@index([userId])
+}
+
+model Trade {
+  id          String      @id @default(cuid())
+  initiatorId String
+  status      String      @default("pending")
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+  completedAt DateTime?
+  
+  initiator   User        @relation(fields: [initiatorId], references: [id], onDelete: Cascade)
+  offers      TradeOffer[]
+  items       TradeItem[]
+  
+  @@index([initiatorId])
+  @@index([status])
+}
+
+model TradeOffer {
+  id        String   @id @default(cuid())
+  tradeId   String
+  userId    String
+  status    String   @default("pending")
+  message   String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  trade Trade @relation(fields: [tradeId], references: [id], onDelete: Cascade)
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  
+  @@index([tradeId])
+  @@index([userId])
+}
+
+model TradeItem {
+  id        String   @id @default(cuid())
+  tradeId   String
+  cardId    String
+  quantity  Int      @default(1)
+  condition String   @default("NM")
+  side      String
+  createdAt DateTime @default(now())
+  
+  trade Trade @relation(fields: [tradeId], references: [id], onDelete: Cascade)
+  card  Card  @relation(fields: [cardId], references: [id], onDelete: Cascade)
+  
+  @@index([tradeId])
+}

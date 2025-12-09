@@ -1,0 +1,147 @@
+{
+  "version": "1.0.0",
+  "turnStructure": {
+    "phases": ["REFRESH", "DRAW", "DON_PHASE", "MAIN", "END"],
+    "firstTurnRules": {
+      "skipDraw": true,
+      "donCount": 1,
+      "canBattle": false
+    }
+  },
+  "battleSystem": {
+    "steps": ["ATTACK", "BLOCK", "COUNTER", "DAMAGE", "END"],
+    "powerComparison": "attacker >= defender",
+    "damageRules": {
+      "leaderDamage": 1,
+      "doubleAttackDamage": 2
+    }
+  },
+  "keywords": {
+    "Rush": {
+      "name": "Rush",
+      "description": "This Character can attack on the turn it is played",
+      "type": "static",
+      "appliesTo": ["CHARACTER"]
+    },
+    "Blocker": {
+      "name": "Blocker",
+      "description": "When an opponent's Character attacks, you may rest this card to change the attack target to this card",
+      "type": "activated",
+      "appliesTo": ["CHARACTER"]
+    },
+    "Trigger": {
+      "name": "Trigger",
+      "description": "When this card is revealed as a life card, you may activate its effect",
+      "type": "triggered",
+      "appliesTo": ["CHARACTER", "EVENT"]
+    },
+    "Double Attack": {
+      "name": "Double Attack",
+      "description": "This card deals 2 damage instead of 1 when attacking a Leader",
+      "type": "static",
+      "appliesTo": ["CHARACTER"]
+    },
+    "Counter": {
+      "name": "Counter",
+      "description": "Can be played from hand during the Counter Step to boost power",
+      "type": "activated",
+      "appliesTo": ["CHARACTER", "EVENT"]
+    }
+  },
+  "zones": {
+    "DECK": {
+      "name": "Deck",
+      "maxCards": 50,
+      "minCards": 50,
+      "visibility": "hidden",
+      "ordered": true
+    },
+    "HAND": {
+      "name": "Hand",
+      "maxCards": null,
+      "minCards": 0,
+      "visibility": "owner",
+      "ordered": false
+    },
+    "TRASH": {
+      "name": "Trash",
+      "maxCards": null,
+      "minCards": 0,
+      "visibility": "public",
+      "ordered": true
+    },
+    "LIFE": {
+      "name": "Life",
+      "maxCards": null,
+      "minCards": 0,
+      "visibility": "hidden",
+      "ordered": true
+    },
+    "DON_DECK": {
+      "name": "DON!! Deck",
+      "maxCards": 10,
+      "minCards": 10,
+      "visibility": "hidden",
+      "ordered": true
+    },
+    "COST_AREA": {
+      "name": "Cost Area",
+      "maxCards": 10,
+      "minCards": 0,
+      "visibility": "public",
+      "ordered": false
+    },
+    "LEADER_AREA": {
+      "name": "Leader Area",
+      "maxCards": 1,
+      "minCards": 1,
+      "visibility": "public",
+      "ordered": false
+    },
+    "CHARACTER_AREA": {
+      "name": "Character Area",
+      "maxCards": 5,
+      "minCards": 0,
+      "visibility": "public",
+      "ordered": false
+    },
+    "STAGE_AREA": {
+      "name": "Stage Area",
+      "maxCards": 1,
+      "minCards": 0,
+      "visibility": "public",
+      "ordered": false
+    },
+    "LIMBO": {
+      "name": "Limbo",
+      "maxCards": null,
+      "minCards": 0,
+      "visibility": "hidden",
+      "ordered": false
+    }
+  },
+  "defeatConditions": [
+    "deck_empty",
+    "life_depleted",
+    "player_defeated_flag"
+  ],
+  "infiniteLoopRules": {
+    "maxRepeats": 4,
+    "resolution": {
+      "bothCanStop": "game_continues",
+      "oneCanStop": "stopping_player_must_stop",
+      "neitherCanStop": "draw"
+    }
+  },
+  "gameSetup": {
+    "startingHandSize": 5,
+    "mulliganAllowed": true,
+    "donDeckSize": 10
+  },
+  "limits": {
+    "maxCharacterArea": 5,
+    "maxStageArea": 1,
+    "deckSize": 50,
+    "donDeckSize": 10
+  }
+}

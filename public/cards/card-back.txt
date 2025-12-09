@@ -1,0 +1,11 @@
+Card back image placeholder.
+
+The card-back.svg file contains a scalable vector version of the card back.
+For production use, this should be converted to a PNG at 1024x1024 resolution.
+
+You can convert it using:
+- Online tools like CloudConvert or Convertio
+- Command line: inkscape card-back.svg --export-png=card-back.png --export-width=1024 --export-height=1024
+- Or use any image editing software that supports SVG
+
+For now, the game will use the sleeve color as a fallback for card backs.

@@ -1,0 +1,1000 @@
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-022 at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-021 at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-024 at zone position Array(3)
+ CardZoneRenderer rendering 5 cards at position Array(3)
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 5 cards at position Array(3)
+ Creating CardMesh for Card OP01-013
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Roronoa Zoro
+ Creating CardMesh for Card OP01-004 (Alt)
+ Creating CardMesh for Card OP01-017 (Alt)
+ CardMesh created for Card OP01-013 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Roronoa Zoro at zone position Array(3)
+ CardMesh created for Card OP01-004 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 1 cards at position Array(3)
+ Creating CardMesh for Trafalgar Law
+ CardMesh created for Trafalgar Law at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ ✅ GameBoard: Rendering with board state: Object
+ ✅ GameBoard: Rendering with board state: Object
+ 🎬 GameScene SceneContent received boardState: Object
+ 🔍 Checking zone DECK (key: deck): Object
+ Rendering P1 DECK: 40 cards
+ 🔍 Checking zone HAND (key: hand): Object
+ Rendering P1 HAND: 4 cards
+ 🔍 Checking zone TRASH (key: trash): Object
+ Rendering P1 TRASH: 0 cards
+ 🔍 Checking zone LIFE (key: life): Object
+ Rendering P1 LIFE: 5 cards
+ 🔍 Checking zone DON_DECK (key: donDeck): Object
+ Rendering P1 DON_DECK: 9 DON cards (rendered separately)
+ 🔍 Checking zone COST_AREA (key: costArea): Object
+ Rendering P1 COST_AREA: 1 DON cards (rendered separately)
+ 🔍 Checking zone LEADER_AREA (key: leaderArea): Object
+ Rendering P1 LEADER_AREA: 1 cards
+ 🔍 Checking zone CHARACTER_AREA (key: characterArea): Object
+ Rendering P1 CHARACTER_AREA: 1 cards
+ 🔍 Checking zone STAGE_AREA (key: stageArea): Object
+ Rendering P1 STAGE_AREA: 0 cards
+ CardZoneRenderer rendering 40 cards at position Array(3)
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Edward Newgate
+ Creating CardMesh for Card OP01-024 (Alt)
+ Creating CardMesh for Roronoa Zoro
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-005
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-024
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-014
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-017
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Sanji
+ Creating CardMesh for Card OP01-033
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Portgas D. Ace
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-015
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-008
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-004 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-001 (Alt)
+ Creating CardMesh for Card OP01-006
+ Creating CardMesh for Card OP01-021
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Edward Newgate at zone position Array(3)
+ CardMesh created for Card OP01-024 (Alt) at zone position Array(3)
+ CardMesh created for Roronoa Zoro at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-005 at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-024 at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-014 at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Sanji at zone position Array(3)
+ CardMesh created for Card OP01-033 at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Portgas D. Ace at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-015 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-008 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-004 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-001 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-006 at zone position Array(3)
+ CardMesh created for Card OP01-021 at zone position Array(3)
+ CardZoneRenderer rendering 4 cards at position Array(3)
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-013
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 5 cards at position Array(3)
+ Creating CardMesh for Card OP01-029
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-022
+ Creating CardMesh for Trafalgar Law
+ Creating CardMesh for Card OP01-013 (Alt)
+ CardMesh created for Card OP01-029 at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-022 at zone position Array(3)
+ CardMesh created for Trafalgar Law at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 1 cards at position Array(3)
+ Creating CardMesh for Roronoa Zoro
+ CardMesh created for Roronoa Zoro at zone position Array(3)
+ CardZoneRenderer rendering 1 cards at position Array(3)
+ Creating CardMesh for Nami
+ CardMesh created for Nami at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 40 cards at position Array(3)
+ Creating CardMesh for Nami
+ Creating CardMesh for Edward Newgate
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-014
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Trafalgar Law
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-001 (Alt)
+ Creating CardMesh for Portgas D. Ace
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-015
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-005
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-024 (Alt)
+ Creating CardMesh for Card OP01-017
+ Creating CardMesh for Card OP01-006
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-008
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-029
+ Creating CardMesh for Sanji
+ Creating CardMesh for Card OP01-033
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-022
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-021
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-024
+ CardMesh created for Nami at zone position Array(3)
+ CardMesh created for Edward Newgate at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-014 at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Trafalgar Law at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-001 (Alt) at zone position Array(3)
+ CardMesh created for Portgas D. Ace at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-015 at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-005 at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-024 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 at zone position Array(3)
+ CardMesh created for Card OP01-006 at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-008 at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-029 at zone position Array(3)
+ CardMesh created for Sanji at zone position Array(3)
+ CardMesh created for Card OP01-033 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-022 at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-021 at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-024 at zone position Array(3)
+ CardZoneRenderer rendering 5 cards at position Array(3)
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 5 cards at position Array(3)
+ Creating CardMesh for Card OP01-013
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Roronoa Zoro
+ Creating CardMesh for Card OP01-004 (Alt)
+ Creating CardMesh for Card OP01-017 (Alt)
+ CardMesh created for Card OP01-013 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Roronoa Zoro at zone position Array(3)
+ CardMesh created for Card OP01-004 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 1 cards at position Array(3)
+ Creating CardMesh for Trafalgar Law
+ CardMesh created for Trafalgar Law at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ ✅ GameBoard: Rendering with board state: Object
+ ✅ GameBoard: Rendering with board state: Object
+ 🎬 GameScene SceneContent received boardState: Object
+ 🔍 Checking zone DECK (key: deck): Object
+ Rendering P1 DECK: 40 cards
+ 🔍 Checking zone HAND (key: hand): Object
+ Rendering P1 HAND: 4 cards
+ 🔍 Checking zone TRASH (key: trash): Object
+ Rendering P1 TRASH: 0 cards
+ 🔍 Checking zone LIFE (key: life): Object
+ Rendering P1 LIFE: 5 cards
+ 🔍 Checking zone DON_DECK (key: donDeck): Object
+ Rendering P1 DON_DECK: 9 DON cards (rendered separately)
+ 🔍 Checking zone COST_AREA (key: costArea): Object
+ Rendering P1 COST_AREA: 1 DON cards (rendered separately)
+ 🔍 Checking zone LEADER_AREA (key: leaderArea): Object
+ Rendering P1 LEADER_AREA: 1 cards
+ 🔍 Checking zone CHARACTER_AREA (key: characterArea): Object
+ Rendering P1 CHARACTER_AREA: 1 cards
+ 🔍 Checking zone STAGE_AREA (key: stageArea): Object
+ Rendering P1 STAGE_AREA: 0 cards
+ CardZoneRenderer rendering 40 cards at position Array(3)
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Edward Newgate
+ Creating CardMesh for Card OP01-024 (Alt)
+ Creating CardMesh for Roronoa Zoro
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-005
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-024
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-014
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-017
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Sanji
+ Creating CardMesh for Card OP01-033
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Portgas D. Ace
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-015
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-008
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-004 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-001 (Alt)
+ Creating CardMesh for Card OP01-006
+ Creating CardMesh for Card OP01-021
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Edward Newgate at zone position Array(3)
+ CardMesh created for Card OP01-024 (Alt) at zone position Array(3)
+ CardMesh created for Roronoa Zoro at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-005 at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-024 at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-014 at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Sanji at zone position Array(3)
+ CardMesh created for Card OP01-033 at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Portgas D. Ace at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-015 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-008 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-004 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-001 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-006 at zone position Array(3)
+ CardMesh created for Card OP01-021 at zone position Array(3)
+ CardZoneRenderer rendering 4 cards at position Array(3)
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-013
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 5 cards at position Array(3)
+ Creating CardMesh for Card OP01-029
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-022
+ Creating CardMesh for Trafalgar Law
+ Creating CardMesh for Card OP01-013 (Alt)
+ CardMesh created for Card OP01-029 at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-022 at zone position Array(3)
+ CardMesh created for Trafalgar Law at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 1 cards at position Array(3)
+ Creating CardMesh for Roronoa Zoro
+ CardMesh created for Roronoa Zoro at zone position Array(3)
+ CardZoneRenderer rendering 1 cards at position Array(3)
+ Creating CardMesh for Nami
+ CardMesh created for Nami at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 40 cards at position Array(3)
+ Creating CardMesh for Nami
+ Creating CardMesh for Edward Newgate
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-014
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Trafalgar Law
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-001 (Alt)
+ Creating CardMesh for Portgas D. Ace
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-015
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-005
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-024 (Alt)
+ Creating CardMesh for Card OP01-017
+ Creating CardMesh for Card OP01-006
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-008
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-029
+ Creating CardMesh for Sanji
+ Creating CardMesh for Card OP01-033
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-022
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-021
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-024
+ CardMesh created for Nami at zone position Array(3)
+ CardMesh created for Edward Newgate at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-014 at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Trafalgar Law at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-001 (Alt) at zone position Array(3)
+ CardMesh created for Portgas D. Ace at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-015 at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-005 at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-024 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 at zone position Array(3)
+ CardMesh created for Card OP01-006 at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-008 at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-029 at zone position Array(3)
+ CardMesh created for Sanji at zone position Array(3)
+ CardMesh created for Card OP01-033 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-022 at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-021 at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-024 at zone position Array(3)
+ CardZoneRenderer rendering 5 cards at position Array(3)
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 5 cards at position Array(3)
+ Creating CardMesh for Card OP01-013
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Roronoa Zoro
+ Creating CardMesh for Card OP01-004 (Alt)
+ Creating CardMesh for Card OP01-017 (Alt)
+ CardMesh created for Card OP01-013 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Roronoa Zoro at zone position Array(3)
+ CardMesh created for Card OP01-004 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 1 cards at position Array(3)
+ Creating CardMesh for Trafalgar Law
+ CardMesh created for Trafalgar Law at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ ✅ GameBoard: Rendering with board state: Object
+ ✅ GameBoard: Rendering with board state: Object
+ 🎬 GameScene SceneContent received boardState: Object
+ 🔍 Checking zone DECK (key: deck): Object
+ Rendering P1 DECK: 40 cards
+ 🔍 Checking zone HAND (key: hand): Object
+ Rendering P1 HAND: 4 cards
+ 🔍 Checking zone TRASH (key: trash): Object
+ Rendering P1 TRASH: 0 cards
+ 🔍 Checking zone LIFE (key: life): Object
+ Rendering P1 LIFE: 5 cards
+ 🔍 Checking zone DON_DECK (key: donDeck): Object
+ Rendering P1 DON_DECK: 9 DON cards (rendered separately)
+ 🔍 Checking zone COST_AREA (key: costArea): Object
+ Rendering P1 COST_AREA: 1 DON cards (rendered separately)
+ 🔍 Checking zone LEADER_AREA (key: leaderArea): Object
+ Rendering P1 LEADER_AREA: 1 cards
+ 🔍 Checking zone CHARACTER_AREA (key: characterArea): Object
+ Rendering P1 CHARACTER_AREA: 1 cards
+ 🔍 Checking zone STAGE_AREA (key: stageArea): Object
+ Rendering P1 STAGE_AREA: 0 cards
+ CardZoneRenderer rendering 40 cards at position Array(3)
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Edward Newgate
+ Creating CardMesh for Card OP01-024 (Alt)
+ Creating CardMesh for Roronoa Zoro
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-005
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-024
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-014
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-017
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Sanji
+ Creating CardMesh for Card OP01-033
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Portgas D. Ace
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-015
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-008
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-004 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-001 (Alt)
+ Creating CardMesh for Card OP01-006
+ Creating CardMesh for Card OP01-021
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Edward Newgate at zone position Array(3)
+ CardMesh created for Card OP01-024 (Alt) at zone position Array(3)
+ CardMesh created for Roronoa Zoro at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-005 at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-024 at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-014 at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Sanji at zone position Array(3)
+ CardMesh created for Card OP01-033 at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Portgas D. Ace at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-015 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-008 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-004 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-001 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-006 at zone position Array(3)
+ CardMesh created for Card OP01-021 at zone position Array(3)
+ CardZoneRenderer rendering 4 cards at position Array(3)
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-013
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 5 cards at position Array(3)
+ Creating CardMesh for Card OP01-029
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-022
+ Creating CardMesh for Trafalgar Law
+ Creating CardMesh for Card OP01-013 (Alt)
+ CardMesh created for Card OP01-029 at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-022 at zone position Array(3)
+ CardMesh created for Trafalgar Law at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 1 cards at position Array(3)
+ Creating CardMesh for Roronoa Zoro
+ CardMesh created for Roronoa Zoro at zone position Array(3)
+ CardZoneRenderer rendering 1 cards at position Array(3)
+ Creating CardMesh for Nami
+ CardMesh created for Nami at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 40 cards at position Array(3)
+ Creating CardMesh for Nami
+ Creating CardMesh for Edward Newgate
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-014
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Trafalgar Law
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-001 (Alt)
+ Creating CardMesh for Portgas D. Ace
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-015
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-005
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-024 (Alt)
+ Creating CardMesh for Card OP01-017
+ Creating CardMesh for Card OP01-006
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-008
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-029
+ Creating CardMesh for Sanji
+ Creating CardMesh for Card OP01-033
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-022
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-021
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-024
+ CardMesh created for Nami at zone position Array(3)
+ CardMesh created for Edward Newgate at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-014 at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Trafalgar Law at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-001 (Alt) at zone position Array(3)
+ CardMesh created for Portgas D. Ace at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-015 at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-005 at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-024 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 at zone position Array(3)
+ CardMesh created for Card OP01-006 at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-008 at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-029 at zone position Array(3)
+ CardMesh created for Sanji at zone position Array(3)
+ CardMesh created for Card OP01-033 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-022 at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-021 at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-024 at zone position Array(3)
+ CardZoneRenderer rendering 5 cards at position Array(3)
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 5 cards at position Array(3)
+ Creating CardMesh for Card OP01-013
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Roronoa Zoro
+ Creating CardMesh for Card OP01-004 (Alt)
+ Creating CardMesh for Card OP01-017 (Alt)
+ CardMesh created for Card OP01-013 at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Roronoa Zoro at zone position Array(3)
+ CardMesh created for Card OP01-004 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardZoneRenderer rendering 1 cards at position Array(3)
+ Creating CardMesh for Trafalgar Law
+ CardMesh created for Trafalgar Law at zone position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ CardZoneRenderer rendering 0 cards at position Array(3)
+ 🎬 GameScene SceneContent received boardState: Object
+ 🔍 Checking zone DECK (key: deck): Object
+ Rendering P1 DECK: 40 cards
+ 🔍 Checking zone HAND (key: hand): Object
+ Rendering P1 HAND: 4 cards
+ 🔍 Checking zone TRASH (key: trash): Object
+ Rendering P1 TRASH: 0 cards
+ 🔍 Checking zone LIFE (key: life): Object
+ Rendering P1 LIFE: 5 cards
+ 🔍 Checking zone DON_DECK (key: donDeck): Object
+ Rendering P1 DON_DECK: 9 DON cards (rendered separately)
+ 🔍 Checking zone COST_AREA (key: costArea): Object
+ Rendering P1 COST_AREA: 1 DON cards (rendered separately)
+ 🔍 Checking zone LEADER_AREA (key: leaderArea): Object
+ Rendering P1 LEADER_AREA: 1 cards
+ 🔍 Checking zone CHARACTER_AREA (key: characterArea): Object
+ Rendering P1 CHARACTER_AREA: 1 cards
+ 🔍 Checking zone STAGE_AREA (key: stageArea): Object
+ Rendering P1 STAGE_AREA: 0 cards
+ CardZoneRenderer rendering 40 cards at position Array(3)
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Edward Newgate
+ Creating CardMesh for Card OP01-024 (Alt)
+ Creating CardMesh for Roronoa Zoro
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-005
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-024
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-014
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-017
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-017 (Alt)
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Sanji
+ Creating CardMesh for Card OP01-033
+ Creating CardMesh for Card OP01-006 (Alt)
+ Creating CardMesh for Card OP01-021 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Portgas D. Ace
+ Creating CardMesh for Card OP01-005 (Alt)
+ Creating CardMesh for Card OP01-013 (Alt)
+ Creating CardMesh for Card OP01-015
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-008
+ Creating CardMesh for Card OP01-025 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-004 (Alt)
+ Creating CardMesh for Card OP01-016 (Alt)
+ Creating CardMesh for Card OP01-001 (Alt)
+ Creating CardMesh for Card OP01-006
+ Creating CardMesh for Card OP01-021
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Edward Newgate at zone position Array(3)
+ CardMesh created for Card OP01-024 (Alt) at zone position Array(3)
+ CardMesh created for Roronoa Zoro at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-005 at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-024 at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-014 at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Sanji at zone position Array(3)
+ CardMesh created for Card OP01-033 at zone position Array(3)
+ CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+ CardMesh created for Portgas D. Ace at zone position Array(3)
+ CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+ CardMesh created for Card OP01-015 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-008 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-004 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-001 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-006 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-021 at zone position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 4 cards at position Array(3)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-006 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-013
+CardMesh.tsx:419 Creating CardMesh for Card OP01-025 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-013 (Alt)
+CardMesh.tsx:89 CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-013 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 0 cards at position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 5 cards at position Array(3)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-029
+CardMesh.tsx:419 Creating CardMesh for Card OP01-016 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-022
+CardMesh.tsx:419 Creating CardMesh for Trafalgar Law
+CardMesh.tsx:419 Creating CardMesh for Card OP01-013 (Alt)
+CardMesh.tsx:89 CardMesh created for Card OP01-029 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-022 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Trafalgar Law at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 1 cards at position Array(3)
+CardMesh.tsx:419 Creating CardMesh for Roronoa Zoro
+CardMesh.tsx:89 CardMesh created for Roronoa Zoro at zone position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 1 cards at position Array(3)
+CardMesh.tsx:419 Creating CardMesh for Nami
+CardMesh.tsx:89 CardMesh created for Nami at zone position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 0 cards at position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 40 cards at position Array(3)
+CardMesh.tsx:419 Creating CardMesh for Nami
+CardMesh.tsx:419 Creating CardMesh for Edward Newgate
+CardMesh.tsx:419 Creating CardMesh for Card OP01-021 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-014
+CardMesh.tsx:419 Creating CardMesh for Card OP01-006 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Trafalgar Law
+CardMesh.tsx:419 Creating CardMesh for Card OP01-005 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-001 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Portgas D. Ace
+CardMesh.tsx:419 Creating CardMesh for Card OP01-006 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-015
+CardMesh.tsx:419 Creating CardMesh for Card OP01-017 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-005
+CardMesh.tsx:419 Creating CardMesh for Card OP01-017 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-006 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-024 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-017
+CardMesh.tsx:419 Creating CardMesh for Card OP01-006
+CardMesh.tsx:419 Creating CardMesh for Card OP01-013 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-005 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-008
+CardMesh.tsx:419 Creating CardMesh for Card OP01-021 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-029
+CardMesh.tsx:419 Creating CardMesh for Sanji
+CardMesh.tsx:419 Creating CardMesh for Card OP01-033
+CardMesh.tsx:419 Creating CardMesh for Card OP01-025 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-022
+CardMesh.tsx:419 Creating CardMesh for Card OP01-013 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-016 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-016 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-021
+CardMesh.tsx:419 Creating CardMesh for Card OP01-021 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-013 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-016 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-016 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-016 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-016 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-013 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-025 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-024
+CardMesh.tsx:89 CardMesh created for Nami at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Edward Newgate at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-014 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Trafalgar Law at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-001 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Portgas D. Ace at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-015 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-005 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-006 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-024 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-017 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-006 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-005 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-008 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-029 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Sanji at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-033 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-022 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-021 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-021 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-024 at zone position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 5 cards at position Array(3)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-025 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-013 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-016 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-016 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-016 (Alt)
+CardMesh.tsx:89 CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-013 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-016 (Alt) at zone position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 0 cards at position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 5 cards at position Array(3)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-013
+CardMesh.tsx:419 Creating CardMesh for Card OP01-025 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Roronoa Zoro
+CardMesh.tsx:419 Creating CardMesh for Card OP01-004 (Alt)
+CardMesh.tsx:419 Creating CardMesh for Card OP01-017 (Alt)
+CardMesh.tsx:89 CardMesh created for Card OP01-013 at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-025 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Roronoa Zoro at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-004 (Alt) at zone position Array(3)
+CardMesh.tsx:89 CardMesh created for Card OP01-017 (Alt) at zone position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 1 cards at position Array(3)
+CardMesh.tsx:419 Creating CardMesh for Trafalgar Law
+CardMesh.tsx:89 CardMesh created for Trafalgar Law at zone position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 0 cards at position Array(3)
+CardMesh.tsx:414 CardZoneRenderer rendering 0 cards at position Array(3)

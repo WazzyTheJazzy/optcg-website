@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Texture Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .texture-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        canvas {
+            border: 1px solid #ccc;
+            display: block;
+            margin: 10px 0;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .info {
+            background: #e7f3ff;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Table Texture Generator</h1>
+        <p>Generate procedural textures for the game table surface.</p>
+        
+        <!-- Wood Grain Texture -->
+        <div class="texture-section">
+            <h2>Wood Grain Texture (2048x2048)</h2>
+            <div class="info">
+                <strong>Purpose:</strong> Realistic wood table surface with grain pattern
+            </div>
+            <canvas id="woodCanvas" width="2048" height="2048"></canvas>
+            <button onclick="generateWoodTexture()">Generate Wood Texture</button>
+            <button onclick="downloadCanvas('woodCanvas', 'wood-table-2048.png')">Download PNG</button>
+        </div>
+
+        <!-- Felt/Playmat Texture -->
+        <div class="texture-section">
+            <h2>Felt Playmat Texture (2048x2048)</h2>
+            <div class="info">
+                <strong>Purpose:</strong> Soft felt surface alternative for card game playmat
+            </div>
+            <canvas id="feltCanvas" width="2048" height="2048"></canvas>
+            <button onclick="generateFeltTexture()">Generate Felt Texture</button>
+            <button onclick="downloadCanvas('feltCanvas', 'felt-playmat-2048.png')">Download PNG</button>
+        </div>
+
+        <!-- Wood Normal Map -->
+        <div class="texture-section">
+            <h2>Wood Normal Map (2048x2048)</h2>
+            <div class="info">
+                <strong>Purpose:</strong> Normal map for wood surface detail and depth
+            </div>
+            <canvas id="normalCanvas" width="2048" height="2048"></canvas>
+            <button onclick="generateNormalMap()">Generate Normal Map</button>
+            <button onclick="downloadCanvas('normalCanvas', 'wood-normal-2048.png')">Download PNG</button>
+        </div>
+
+        <!-- Felt Normal Map -->
+        <div class="texture-section">
+            <h2>Felt Normal Map (2048x2048)</h2>
+            <div class="info">
+                <strong>Purpose:</strong> Normal map for felt surface texture
+            </div>
+            <canvas id="feltNormalCanvas" width="2048" height="2048"></canvas>
+            <button onclick="generateFeltNormalMap()">Generate Felt Normal Map</button>
+            <button onclick="downloadCanvas('feltNormalCanvas', 'felt-normal-2048.png')">Download PNG</button>
+        </div>
+    </div>
+
+    <script>
+        // Noise function for procedural generation
+        function noise(x, y, seed = 0) {
+            const n = Math.sin(x * 12.9898 + y * 78.233 + seed) * 43758.5453;
+            return n - Math.floor(n);
+        }
+
+        function smoothNoise(x, y, seed = 0) {
+            const corners = (noise(x-1, y-1, seed) + noise(x+1, y-1, seed) + 
+                           noise(x-1, y+1, seed) + noise(x+1, y+1, seed)) / 16;
+            const sides = (noise(x-1, y, seed) + noise(x+1, y, seed) + 
+                         noise(x, y-1, seed) + noise(x, y+1, seed)) / 8;
+            const center = noise(x, y, seed) / 4;
+            return corners + sides + center;
+        }
+
+        function perlinNoise(x, y, octaves = 4, persistence = 0.5, seed = 0) {
+            let total = 0;
+            let frequency = 1;
+            let amplitude = 1;
+            let maxValue = 0;
+
+            for (let i = 0; i < octaves; i++) {
+                total += smoothNoise(x * frequency, y * frequency, seed + i) * amplitude;
+                maxValue += amplitude;
+                amplitude *= persistence;
+                frequency *= 2;
+            }
+
+            return total / maxValue;
+        }
+
+        function generateWoodTexture() {
+            const canvas = document.getElementById('woodCanvas');
+            const ctx = canvas.getContext('2d');
+            const width = canvas.width;
+            const height = canvas.height;
+            const imageData = ctx.createImageData(width, height);
+            const data = imageData.data;
+
+            // Wood colors (dark to light brown)
+            const woodColors = [
+                { r: 101, g: 67, b: 33 },   // Dark brown
+                { r: 139, g: 90, b: 43 },   // Medium brown
+                { r: 160, g: 110, b: 60 },  // Light brown
+                { r: 180, g: 130, b: 70 }   // Lighter brown
+            ];
+
+            for (let y = 0; y < height; y++) {
+                for (let x = 0; x < width; x++) {
+                    const idx = (y * width + x) * 4;
+                    
+                    // Create wood grain pattern (horizontal with some variation)
+                    const grainX = x / width;
+                    const grainY = y / height;
+                    
+                    // Main grain pattern
+                    const grain = Math.sin(grainY * 80 + perlinNoise(grainX * 10, grainY * 10, 6, 0.5) * 20) * 0.5 + 0.5;
+                    
+                    // Add fine detail
+                    const detail = perlinNoise(grainX * 50, grainY * 50, 4, 0.6) * 0.3;
+                    
+                    // Combine patterns
+                    const value = grain * 0.7 + detail * 0.3;
+                    
+                    // Select color based on value
+                    const colorIndex = Math.floor(value * (woodColors.length - 1));
+                    const color = woodColors[Math.min(colorIndex, woodColors.length - 1)];
+                    
+                    // Add slight variation
+                    const variation = (perlinNoise(grainX * 100, grainY * 100, 3, 0.5) - 0.5) * 30;
+                    
+                    data[idx] = Math.max(0, Math.min(255, color.r + variation));
+                    data[idx + 1] = Math.max(0, Math.min(255, color.g + variation));
+                    data[idx + 2] = Math.max(0, Math.min(255, color.b + variation));
+                    data[idx + 3] = 255;
+                }
+            }
+
+            ctx.putImageData(imageData, 0, 0);
+            console.log('Wood texture generated');
+        }
+
+        function generateFeltTexture() {
+            const canvas = document.getElementById('feltCanvas');
+            const ctx = canvas.getContext('2d');
+            const width = canvas.width;
+            const height = canvas.height;
+            const imageData = ctx.createImageData(width, height);
+            const data = imageData.data;
+
+            // Felt color (dark green, typical for card game tables)
+            const baseColor = { r: 20, g: 80, b: 40 };
+
+            for (let y = 0; y < height; y++) {
+                for (let x = 0; x < width; x++) {
+                    const idx = (y * width + x) * 4;
+                    
+                    const nx = x / width;
+                    const ny = y / height;
+                    
+                    // Create felt texture with fine noise
+                    const feltNoise = perlinNoise(nx * 200, ny * 200, 6, 0.6) * 0.15;
+                    
+                    // Add fabric weave pattern
+                    const weave = (Math.sin(nx * 400) * Math.sin(ny * 400)) * 0.05;
+                    
+                    const variation = (feltNoise + weave) * 255;
+                    
+                    data[idx] = Math.max(0, Math.min(255, baseColor.r + variation));
+                    data[idx + 1] = Math.max(0, Math.min(255, baseColor.g + variation));
+                    data[idx + 2] = Math.max(0, Math.min(255, baseColor.b + variation));
+                    data[idx + 3] = 255;
+                }
+            }
+
+            ctx.putImageData(imageData, 0, 0);
+            console.log('Felt texture generated');
+        }
+
+        function generateNormalMap() {
+            const canvas = document.getElementById('normalCanvas');
+            const ctx = canvas.getContext('2d');
+            const width = canvas.width;
+            const height = canvas.height;
+            const imageData = ctx.createImageData(width, height);
+            const data = imageData.data;
+
+            // Generate height map first
+            const heightMap = new Float32Array(width * height);
+            for (let y = 0; y < height; y++) {
+                for (let x = 0; x < width; x++) {
+                    const nx = x / width;
+                    const ny = y / height;
+                    
+                    // Wood grain height variation
+                    const grain = Math.sin(ny * 80 + perlinNoise(nx * 10, ny * 10, 6, 0.5) * 20) * 0.3;
+                    const detail = perlinNoise(nx * 50, ny * 50, 4, 0.6) * 0.2;
+                    
+                    heightMap[y * width + x] = grain + detail;
+                }
+            }
+
+            // Calculate normals from height map
+            const strength = 3.0;
+            for (let y = 0; y < height; y++) {
+                for (let x = 0; x < width; x++) {
+                    const idx = (y * width + x) * 4;
+                    
+                    // Sample neighboring heights
+                    const left = heightMap[y * width + Math.max(0, x - 1)];
+                    const right = heightMap[y * width + Math.min(width - 1, x + 1)];
+                    const up = heightMap[Math.max(0, y - 1) * width + x];
+                    const down = heightMap[Math.min(height - 1, y + 1) * width + x];
+                    
+                    // Calculate normal
+                    const dx = (right - left) * strength;
+                    const dy = (down - up) * strength;
+                    
+                    // Normalize
+                    const length = Math.sqrt(dx * dx + dy * dy + 1);
+                    const nx = dx / length;
+                    const ny = dy / length;
+                    const nz = 1 / length;
+                    
+                    // Convert to RGB (0-1 range to 0-255)
+                    data[idx] = Math.floor((nx * 0.5 + 0.5) * 255);
+                    data[idx + 1] = Math.floor((ny * 0.5 + 0.5) * 255);
+                    data[idx + 2] = Math.floor((nz * 0.5 + 0.5) * 255);
+                    data[idx + 3] = 255;
+                }
+            }
+
+            ctx.putImageData(imageData, 0, 0);
+            console.log('Normal map generated');
+        }
+
+        function generateFeltNormalMap() {
+            const canvas = document.getElementById('feltNormalCanvas');
+            const ctx = canvas.getContext('2d');
+            const width = canvas.width;
+            const height = canvas.height;
+            const imageData = ctx.createImageData(width, height);
+            const data = imageData.data;
+
+            // Generate height map for felt (subtle texture)
+            const heightMap = new Float32Array(width * height);
+            for (let y = 0; y < height; y++) {
+                for (let x = 0; x < width; x++) {
+                    const nx = x / width;
+                    const ny = y / height;
+                    
+                    // Subtle felt texture
+                    const feltNoise = perlinNoise(nx * 200, ny * 200, 6, 0.6) * 0.1;
+                    const weave = (Math.sin(nx * 400) * Math.sin(ny * 400)) * 0.05;
+                    
+                    heightMap[y * width + x] = feltNoise + weave;
+                }
+            }
+
+            // Calculate normals (subtle strength for felt)
+            const strength = 1.5;
+            for (let y = 0; y < height; y++) {
+                for (let x = 0; x < width; x++) {
+                    const idx = (y * width + x) * 4;
+                    
+                    const left = heightMap[y * width + Math.max(0, x - 1)];
+                    const right = heightMap[y * width + Math.min(width - 1, x + 1)];
+                    const up = heightMap[Math.max(0, y - 1) * width + x];
+                    const down = heightMap[Math.min(height - 1, y + 1) * width + x];
+                    
+                    const dx = (right - left) * strength;
+                    const dy = (down - up) * strength;
+                    
+                    const length = Math.sqrt(dx * dx + dy * dy + 1);
+                    const nx = dx / length;
+                    const ny = dy / length;
+                    const nz = 1 / length;
+                    
+                    data[idx] = Math.floor((nx * 0.5 + 0.5) * 255);
+                    data[idx + 1] = Math.floor((ny * 0.5 + 0.5) * 255);
+                    data[idx + 2] = Math.floor((nz * 0.5 + 0.5) * 255);
+                    data[idx + 3] = 255;
+                }
+            }
+
+            ctx.putImageData(imageData, 0, 0);
+            console.log('Felt normal map generated');
+        }
+
+        function downloadCanvas(canvasId, filename) {
+            const canvas = document.getElementById(canvasId);
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }
+
+        // Generate all textures on load
+        window.onload = function() {
+            console.log('Generating textures...');
+            generateWoodTexture();
+            generateFeltTexture();
+            generateNormalMap();
+            generateFeltNormalMap();
+            console.log('All textures generated. Click download buttons to save.');
+        };
+    </script>
+</body>
+</html>
