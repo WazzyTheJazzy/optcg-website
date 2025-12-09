@@ -82,7 +82,7 @@ export class EffectBatcher {
    */
   static canBatchTogether(effect1: EffectInstance, effect2: EffectInstance): boolean {
     // Must be same type
-    if (effect1.effectDefinition.effectType !== effect2.effectDefinition.effectType) {
+    if (effect1.definition.effectType !== effect2.definition.effectType) {
       return false;
     }
 
@@ -108,7 +108,7 @@ export class EffectBatcher {
     const byType = new Map<EffectType, EffectInstance[]>();
     
     for (const effect of effects) {
-      const type = effect.effectDefinition.effectType;
+      const type = effect.definition.effectType;
       if (!byType.has(type)) {
         byType.set(type, []);
       }
@@ -163,10 +163,10 @@ export class EffectBatcher {
    */
   static mergePowerModifications(effects: EffectInstance[]): EffectInstance[] {
     const powerMods = effects.filter(
-      e => e.effectDefinition.effectType === EffectType.POWER_MODIFICATION
+      e => e.definition.effectType === EffectType.POWER_MODIFICATION
     );
     const others = effects.filter(
-      e => e.effectDefinition.effectType !== EffectType.POWER_MODIFICATION
+      e => e.definition.effectType !== EffectType.POWER_MODIFICATION
     );
 
     if (powerMods.length <= 1) {
@@ -196,9 +196,9 @@ export class EffectBatcher {
       }
 
       // Check if all have same duration
-      const firstDuration = targetEffects[0].effectDefinition.parameters.duration;
+      const firstDuration = targetEffects[0].definition.parameters.duration;
       const sameDuration = targetEffects.every(
-        e => e.effectDefinition.parameters.duration === firstDuration
+        e => e.definition.parameters.duration === firstDuration
       );
 
       if (!sameDuration) {
@@ -209,17 +209,17 @@ export class EffectBatcher {
 
       // Sum power changes
       const totalPowerChange = targetEffects.reduce(
-        (sum, e) => sum + (e.effectDefinition.parameters.powerChange || 0),
+        (sum, e) => sum + (e.definition.parameters.powerChange || 0),
         0
       );
 
       // Create merged effect
       const mergedEffect: EffectInstance = {
         ...targetEffects[0],
-        effectDefinition: {
-          ...targetEffects[0].effectDefinition,
+        definition: {
+          ...targetEffects[0].definition,
           parameters: {
-            ...targetEffects[0].effectDefinition.parameters,
+            ...targetEffects[0].definition.parameters,
             powerChange: totalPowerChange,
           },
         },
