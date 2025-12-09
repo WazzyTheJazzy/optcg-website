@@ -29,7 +29,7 @@ export class EffectBatcher {
     const batches: Map<EffectType, EffectBatch> = new Map();
 
     for (const effect of effects) {
-      const effectType = effect.effectDefinition.effectType;
+      const effectType = effect.definition.effectType;
       
       if (!batches.has(effectType)) {
         batches.set(effectType, {
